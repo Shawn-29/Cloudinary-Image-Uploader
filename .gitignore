@@ -1,0 +1,9 @@
+# dependencies
+/node_modules
+
+# misc.
+.env
+.vscode/
+/test_code
+/test_images
+/src/app.js

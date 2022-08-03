@@ -1,0 +1,24 @@
+{
+  "name": "cloudinary-image-uploader",
+  "version": "1.0.0",
+  "description": "\"Asynchronously uploads multiple images to Cloudinary while performing simple image validation and error logging.\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --trace-warnings src/app.js"
+  },
+  "keywords": [
+    "image uploading",
+    "cloudinary"
+  ],
+  "author": "Shawn-29",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "form-data": "^4.0.0",
+    "http-status-codes": "^2.2.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.0"
+  }
+}
